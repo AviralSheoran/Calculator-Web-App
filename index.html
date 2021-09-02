@@ -8,13 +8,14 @@
     <title>Calculator Web App</title>
   </head>
   <body>
+    <h1>Calculator Web App</h1>
     <div class="container">
-      <input type="number" id="screen" name="screen" />
+      <input type="text" id="screen" name="screen" />
       <table>
         <tr>
           <td><button class="cancel">C</button></td>
           <td><button>%</button></td>
-          <td><button>√</button></td>
+          <td><button>^</button></td>
           <td><button>X</button></td>
         </tr>
         <tr>
@@ -35,15 +36,13 @@
           <td><button>3</button></td>
           <td><button>+</button></td>
         </tr>
-        <tr>
+        <tr class="last-row">
           <td><button>.</button></td>
           <td><button>0</button></td>
-          <td><button>Back</button></td>
-          <td><button>=</button></td>
+          <td><button class="equal-to" colspan="2">=</button></td>
         </tr>
       </table>
     </div>
-
-    <script src="script.js"></script>
   </body>
+  <script src="script.js"></script>
 </html>
