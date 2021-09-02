@@ -1,15 +1,20 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-weight: bold;
-  background-color: rgb(193, 188, 212);
+  font-weight: bolder;
+  background-color: rgb(175, 179, 187);
 }
 .container {
   text-align: center;
-  margin-top: 28%;
-  margin-left: auto;
-  border-sizing: border-box;
-  border: 1px solid red;
+  margin-top: 10%;
+  margin-left: 26%;
+  max-width: 45%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-radius: 19px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
 }
 table {
   display: flex;
@@ -24,10 +29,10 @@ button {
   padding: 20px;
   font-size: larger;
   border-style: none;
-  /* background-color: white; */
-  border-radius: 36px;
-  background: #eee9f2;
-  box-shadow: 3px 3px 1px #e2dde6, -3px -3px 1px #faf5fe;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #fff9ff, #d6d2da);
+  box-shadow: 5px 5px 5px #5f5d61, -5px -5px 5px #ffffff;
+
   /* clip-path: ellipse(50% 42% at 50% 50%); */
 }
 .cancel {
@@ -35,8 +40,10 @@ button {
 }
 input {
   width: 285px;
-  height: 45px;
-  font-size: 25px;
+  height: 100px;
+  font-size: 30px;
   border-style: none;
   margin-bottom: 15px;
+  margin-top: 0px;
+  text-align: right;
 }
